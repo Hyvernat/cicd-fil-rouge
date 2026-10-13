@@ -58,9 +58,22 @@ docker run --rm -p 8000:8000 taskflow
 ## Équipe
 
 <!-- Lab J1 : remplacez par les noms du binôme -->
-- À compléter
+-Hafsa HYVERNAT
+-Lorenzo SPERISEN
+-Lina Mebouga Messia
 
 ## Gouvernance du dépôt
 
 <!-- Lab J1 : listez les règles activées sur main, pourquoi chacune, et ajoutez la capture du push refusé -->
-À compléter.
+
+Règles activées sur main (ruleset actif, aucune exception, admins compris) :
+
+| Règle | Pourquoi |
+| --- | --- |
+| Pull Request obligatoire | Tout changement est relu et tracé avant d'arriver sur main |
+| 1 approbation | Un deuxième regard sur chaque changement |
+| Force push interdit | Personne ne peut réécrire ou effacer l'historique |
+| Suppression interdite | La branche principale ne peut pas disparaître |
+
+Preuve : un push direct sur main est refusé (erreur GH013).
+![alt text](image.png)
