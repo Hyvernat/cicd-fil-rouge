@@ -66,3 +66,7 @@ docker run --rm -p 8000:8000 taskflow
 
 <!-- Lab J1 : listez les règles activées sur main, pourquoi chacune, et ajoutez la capture du push refusé -->
 ![alt text](image.png)
+
+| CODEOWNERS sur `.github/workflows/` | Modifier le pipeline, c'est modifier les contrôles : relecture obligatoire par l'équipe |
+
+
