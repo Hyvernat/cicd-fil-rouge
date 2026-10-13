@@ -65,6 +65,17 @@ docker run --rm -p 8000:8000 taskflow
 ## Gouvernance du dépôt
 
 <!-- Lab J1 : listez les règles activées sur main, pourquoi chacune, et ajoutez la capture du push refusé -->
+Règles activées sur main (ruleset actif, aucune exception, admins compris) :
+
+| Règle | Pourquoi |
+| --- | --- |
+| Pull Request obligatoire | Tout changement est relu et tracé avant d'arriver sur main |
+| 1 approbation | Un deuxième regard sur chaque changement |
+| Force push interdit | Personne ne peut réécrire ou effacer l'historique |
+| Suppression interdite | La branche principale ne peut pas disparaître |
+| CODEOWNERS sur `.github/workflows/` | Modifier le pipeline, c'est modifier les contrôles : relecture obligatoire par l'équipe |
+
+Preuve : un push direct sur main est refusé (erreur GH013).
 ![alt text](image.png)
 
 | CODEOWNERS sur `.github/workflows/` | Modifier le pipeline, c'est modifier les contrôles : relecture obligatoire par l'équipe |
