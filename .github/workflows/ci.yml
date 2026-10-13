@@ -45,5 +45,6 @@ jobs:
           python -m pip install pytest httpx
           python -m pip show httpx
 
+          
       - name: Exécuter les tests
         run: python -m pytest -v
