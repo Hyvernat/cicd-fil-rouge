@@ -59,6 +59,8 @@ docker run --rm -p 8000:8000 taskflow
 
 <!-- Lab J1 : remplacez par les noms du binôme -->
 -Hafsa HYVERNAT
+-Lorenzo SPERISEN
+-Lina Mebouga Messia
 
 ## Gouvernance du dépôt
 
